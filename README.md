@@ -76,3 +76,11 @@ Intro to Containers and Orchestration
 
 # References:
 - Gabriel N. Schenker, Hideto Saito, Hui-Chuan Chloe Lee, Ke-Jou Carol Hsu, Getting Started with Containerization, 2019
+
+# Host Runtimes
+- Linux
+- Windows
+- OSX
+
+# Online Tools
+- Gitpod
