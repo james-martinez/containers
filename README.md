@@ -12,7 +12,7 @@ Intro to Containers and Orchestration
   - CoreOS
 - LXD
  - Linux Containers
-# Virtual Machines vs Containers
+# Containers vs Virtual Machines and Bare Metal
 - Containers use Linux security primitives such as Linux kernel namespaces to sandbox different applications running on the same computers and control groups (cgroups), to avoid the noisy neighbor problem where one bad application is using all available resources of a server and starving all other applications.
 - Containers are fast and ephemeral.
 - Containers are not virtualized but still use isolation technology.
