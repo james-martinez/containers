@@ -85,4 +85,4 @@ Intro to Containers and Orchestration
 # Online Tools
 - Gitpod
 - Github Codespaces
-- Eclipse Che Hosted by Redhat
+- Eclipse Che
