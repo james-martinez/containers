@@ -83,5 +83,5 @@ Intro to Containers and Orchestration
 - OSX
 
 # Online Tools
-- Gitpod and Gitlab
+- Gitpod
 - Github Codespaces
