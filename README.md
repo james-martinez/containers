@@ -1,18 +1,6 @@
 # containers
 Intro to Containers and Orchestration
-
-# Runtimes
-- Docker engine
-  - Comes with their networking, cli, and api. Community Edition (CE) free and Enterprise Edition (EE) paid. 
-- Containerd and runc
-  - donated by Docker to the Cloud Native Computing Foundation (CNCF).
-- CRI-O 
-  - Redhat
-- rkt
-  - CoreOS
-- LXD
- - Linux Containers
-# Containers vs Virtual Machines and Bare Metal
+# Containers vs Virtual Machines and Bare Metal Hardware
 - Containers use Linux security primitives such as Linux kernel namespaces to sandbox different applications running on the same computers and control groups (cgroups), to avoid the noisy neighbor problem where one bad application is using all available resources of a server and starving all other applications.
 - Containers are fast and ephemeral.
 - Containers are not virtualized but still use isolation technology.
@@ -24,6 +12,17 @@ Intro to Containers and Orchestration
   - Automation
   - Less maintenance
   - Faster delivery
+# Runtimes
+- Docker engine
+  - Comes with their networking, cli, and api. Community Edition (CE) free and Enterprise Edition (EE) paid. 
+- Containerd and runc
+  - donated by Docker to the Cloud Native Computing Foundation (CNCF).
+- CRI-O 
+  - Redhat
+- rkt
+  - CoreOS
+- LXD
+ - Linux Containers
 # What makes a continer:
  - Uses a traditional linux root file system. /etc/ /usr/ /bin/
  - Can be one to many layers. Each individual layer contains files and folders
